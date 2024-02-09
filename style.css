@@ -1,0 +1,121 @@
+
+h1{
+    color: red;
+
+}
+#border
+{
+    width: 200px;
+    height: 200px;
+   border-top: 1px solid red;
+   border-left: 1px solid yellow;
+   border-bottom: 1px solid green;
+   border-right: 1px solid blue;
+   border-radius: 50%;
+}
+/* background */
+
+#background
+{
+    /* background-image: url("https://html.com/wp-content/uploads/flamingo.jpg"); */
+    height: 200px;
+    width: 700px;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px dashed black;
+    background-clip: content-box;
+    background-image: url("https://html.com/wp-content/uploads/flamingo.jpg"), radial-gradient( red, yellow, green);
+    background-color: red;
+    /* background-image: radial-gradient(red, green, blue); */
+    /* cover strech the image to fill all the space ans change the aspect ratio evene cut from size */
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    /* contain to make sure image is fully visible */
+
+}
+/* position */
+
+#parent
+{
+  height: 800px;
+  width: 100%;
+  background-color: red;
+  position: relative;
+  
+}
+#child
+{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    left: 20px;
+}
+/* float and clear */
+img
+{
+    float: left;
+}
+.card2
+{
+    clear: left;
+}
+
+/* text */
+.text
+{
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow: 10px 10px 2px red;
+}
+
+
+/* selector */
+
+/* element  selector */
+/* class selector */
+/* universal selector * */
+/* child selector */
+
+/* div>p  div any paragrapgh direct child*/
+/* descendeant selector  */
+/* div p div ke andar kisi bahi bhi ho it will apply */
+/* adjacent sibling selector div+p div ke turant baad p koi aur p nhi  */
+
+div+p{
+    color: teal;
+}
+
+/* div ~ p {
+  background-color: yellow;
+}
+The general sibling selector (~) selects all elements that are next siblings of a specified element */
+
+
+
+
+/* pseudo selector */
+/* visited, link, active, hover */
+
+/* first child jaha jaha p apne parent ka first child h woh color apli ho jaye */
+/* p:first p:nth-child(2)p::first-line p::before */
+
+/* box-model=content+width+border=width */
+/* by default boz-sizing: content-box if we not set border-sizing: border-box then width and height will aonly content size */
+/* margin-collapse */
+
+/* font-family */
+p{
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
