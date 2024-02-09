@@ -168,3 +168,20 @@ li{
     align-self: center;
     flex-shrink: 2;
 }
+.grid
+{
+    display: grid;
+    /* grid-template-columns: 120px 40px;
+    grid-template-rows: auto auto; */
+    grid-template-areas: "nav nav naav"
+                            "side side side";
+    border: 1px solid black;
+    height: 700px;
+    width: 900px;
+}
+.grid1
+{
+    grid-row: 1/2;
+    grid-area: "nav";
+    grid-column: 1/4;
+}
