@@ -119,3 +119,52 @@ p{
     font-style: italic;
     
 }
+/* cascade algorith specifity */
+/*  same selector then last one is aplied */
+/* inline>>id selector> class or attribute>elemeny selector>universal selector */
+/* em relative to parent, rem relative to root, px,%, vw relative to window, vh relative to window,% relative to parent */
+/* inline- padding-top and margin-top not applicable, we have to make inline-block for width, height, padding, margin */
+/* display:none space bhi hata diya aur gayab kar diya visibilyy:hidden space rahega */
+/* box-shadow: x y blur spread color inset */
+/* outline border ka hissa nhi hota h boder lekin border hota  */
+/* outline-offset:87 */
+/* diplay: list-item list and item by defaylt li and ul */
+/* list style */
+li{
+    list-style: none;
+    list-style-type: circle;
+    list-style-position: inline;
+}
+@media  screen and (max-width: 455px) {
+    
+}
+/* :: selection */
+/* flex-box */
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* for one line  align-iten=cross-axis */
+    /* for morw than one line align-content: center */
+    height: 300px;
+    width: 300px;
+    border: 1px solid goldenrod;
+    /* flex-flow: row no-wrap */
+    /* gap: 30px;
+    row-gap
+    col-gap */
+}
+.flex1
+{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    order: 1;
+    flex-grow: 1;
+    /* equal width */
+    align-self: center;
+    flex-shrink: 2;
+}
