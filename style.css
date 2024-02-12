@@ -77,41 +77,11 @@ img
 }
 
 
-/* selector */
-
-/* element  selector */
-/* class selector */
-/* universal selector * */
-/* child selector */
-
-/* div>p  div any paragrapgh direct child*/
-/* descendeant selector  */
-/* div p div ke andar kisi bahi bhi ho it will apply */
-/* adjacent sibling selector div+p div ke turant baad p koi aur p nhi  */
 
 div+p{
     color: teal;
 }
 
-/* div ~ p {
-  background-color: yellow;
-}
-The general sibling selector (~) selects all elements that are next siblings of a specified element */
-
-
-
-
-/* pseudo selector */
-/* visited, link, active, hover */
-
-/* first child jaha jaha p apne parent ka first child h woh color apli ho jaye */
-/* p:first p:nth-child(2)p::first-line p::before */
-
-/* box-model=content+width+border=width */
-/* by default boz-sizing: content-box if we not set border-sizing: border-box then width and height will aonly content size */
-/* margin-collapse */
-
-/* font-family */
 p{
     font-family: sans-serif;
     font-size: 26px;
@@ -119,17 +89,7 @@ p{
     font-style: italic;
     
 }
-/* cascade algorith specifity */
-/*  same selector then last one is aplied */
-/* inline>>id selector> class or attribute>elemeny selector>universal selector */
-/* em relative to parent, rem relative to root, px,%, vw relative to window, vh relative to window,% relative to parent */
-/* inline- padding-top and margin-top not applicable, we have to make inline-block for width, height, padding, margin */
-/* display:none space bhi hata diya aur gayab kar diya visibilyy:hidden space rahega */
-/* box-shadow: x y blur spread color inset */
-/* outline border ka hissa nhi hota h boder lekin border hota  */
-/* outline-offset:87 */
-/* diplay: list-item list and item by defaylt li and ul */
-/* list style */
+
 li{
     list-style: none;
     list-style-type: circle;
@@ -243,3 +203,5 @@ li{
         transform: translateX(100%) rotate(360deg);
     }
 }  */
+
+
