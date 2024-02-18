@@ -205,3 +205,41 @@ li{
 }  */
 
 
+/* .transform
+{
+    width: 400px;
+    height: 40px;
+    transition: all 3s ease-in-out 1s;
+    background-color: black;
+}
+.transform:hover
+{
+    background-color: red;
+    transform: scale(2) translateX(12px);
+} */
+
+
+
+.transform
+{
+    width: 400px;
+    height: 40px;
+    transition: all 3s ease-in-out 1s;
+    background-color: black;
+    animation: priyanka 3s ease-in-out 1s infinite reverse;
+}
+
+@keyframes priyanka {
+    0% {
+        background-color: rebeccapurple;
+        transform: translateX(20%) ; 
+    }
+    5% {
+        background-color: rgb(68, 153, 51);
+        transform: translateX(60%) ; 
+    }
+    100% {
+        background-color: rgb(3, 5, 17);
+        transform: translateX(100%) ;
+    }
+}
