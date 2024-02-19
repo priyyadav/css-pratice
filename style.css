@@ -205,7 +205,7 @@ li{
 }  */
 
 
-/* .transform
+.transform
 {
     width: 400px;
     height: 40px;
@@ -216,11 +216,11 @@ li{
 {
     background-color: red;
     transform: scale(2) translateX(12px);
-} */
+}
 
 
 
-.transform
+/* .transform
 {
     width: 400px;
     height: 40px;
@@ -242,4 +242,4 @@ li{
         background-color: rgb(3, 5, 17);
         transform: translateX(100%) ;
     }
-}
+} */
